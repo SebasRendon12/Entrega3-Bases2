@@ -1,10 +1,10 @@
 import javax.swing.JFrame;
 
-public class SegundoPunto extends JFrame {
+public class PrimerPunto extends JFrame {
 
   private static final long serialVersionUID = 1L;
 
-  public SegundoPunto(String titulo) {
+  public PrimerPunto(String titulo) {
     super(titulo); // titulo de la ventana
     this.setSize(700, 400);// tamaño de la ventana
     iniciarComponentes();
