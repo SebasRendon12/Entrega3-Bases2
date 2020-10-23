@@ -2,8 +2,6 @@
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "mongo-java-driver-3.12.7.jar",
-    "org.json-chargebee-1.0.jar",
-    "jackson-core-2.11.1.jar",
     "gson-2.8.6.jar"
   ]
 }
