@@ -25,6 +25,9 @@ public class PrimerPunto extends JFrame {
     JButton boton2 = new JButton("regla 4");
     boton2.setBounds(300, 50, 300, 40);
     panel.add(boton2);
+    JButton boton3 = new JButton("regla 5");
+    boton2.setBounds(150, 150, 300, 40);
+    panel.add(boton3);
     ActionListener oyenteDeAccion = new ActionListener() {
       @Override
       public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -36,11 +39,19 @@ public class PrimerPunto extends JFrame {
     ActionListener oyenteDeAccion1 = new ActionListener() {
       @Override
       public void actionPerformed(java.awt.event.ActionEvent e) {
-        SegundoPunto puntos = new SegundoPunto("Segundo punto");
+        Regla2 puntos = new Regla2("Regla4");
         puntos.setVisible(true);
       }
     };
     boton2.addActionListener(oyenteDeAccion1);
+    ActionListener oyenteDeAccion2 = new ActionListener() {
+      @Override
+      public void actionPerformed(java.awt.event.ActionEvent e) {
+        Regla3 puntos = new Regla3("Regla5");
+        puntos.setVisible(true);
+      }
+    };
+    boton3.addActionListener(oyenteDeAccion2);
   }
 
 }
