@@ -25,6 +25,7 @@ public class MenuPrincipal extends JFrame {
     JButton boton2 = new JButton("Segundo punto");
     boton2.setBounds(300, 50, 300, 40);
     panel.add(boton2);
+    
     ActionListener oyenteDeAccion = new ActionListener() {
       @Override
       public void actionPerformed(java.awt.event.ActionEvent e) {
