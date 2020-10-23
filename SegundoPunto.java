@@ -186,7 +186,7 @@ public class SegundoPunto extends JFrame {
 
         coleccion.insertOne(i);
       }
-      JOptionPane.showMessageDialog(null, "Consulta y guardado exitoso");
+      JOptionPane.showMessageDialog(null, "Consulta y guardado realizado con exito");
       isConsulta = true;
 
     } catch (Exception e) {
