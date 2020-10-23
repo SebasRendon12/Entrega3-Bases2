@@ -26,7 +26,7 @@ public class PrimerPunto extends JFrame {
     boton2.setBounds(300, 50, 300, 40);
     panel.add(boton2);
     JButton boton3 = new JButton("regla 5");
-    boton2.setBounds(150, 150, 300, 40);
+    boton3.setBounds(150, 150, 300, 40);
     panel.add(boton3);
     ActionListener oyenteDeAccion = new ActionListener() {
       @Override
